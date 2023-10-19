@@ -1,0 +1,41 @@
+borrowing book from library.
+
+Start
+
+timer=0
+deadline1=0
+deadline2=0
+
+read Student ID from user
+read choice of book
+get book from database to user
+
+read the date
+
+if (book page <= 300)
+
+deadline1= date + 7 days
+display deadline1
+timer= 7 days to 0 day
+end if
+
+if (book page > 300)
+deadline2= date + 14 days
+timer= 14 days to 0 day
+end if
+
+when timer=0
+
+if (user gives book back in time)
+Print "Thanks, hope to see you again."
+Send book to database back
+end if
+
+
+if(user doesn't give book in time)
+Print "Deadline is over, you have to give book back in 7 days"
+timer= 7 days to 0 day
+when user gives the book
+end if
+
+End

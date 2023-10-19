@@ -1,0 +1,52 @@
+
+
+Start
+
+read genre
+read book name
+
+if (the genre is litrerary novel) {
+print "Search in Section A."
+}
+
+else if (the genre is fictional novel) {
+print "Search in Section B."
+}
+
+else if (the genre is poetry) {
+print "Search in Section C."
+}
+
+else if (the genre is article) {
+print "Search in Section D."
+}
+
+else if (the genre is encyclopedia) {
+print "Search in Section E."
+}
+
+else if (the genre is children's book) {
+print "Search in Section F."
+}
+
+end if
+
+if (the book name starts with "a,b,c,d,e,f,g") {
+print "Search in shelf 1."
+}
+
+else if (the book name starts with "h,i,j,k,l,m,n") {
+print "Search in shelf 2."
+}
+
+else if (the book name starts with "o,p,q,r,s,t,u) {
+print "Search in shelf 3."
+}
+
+else if (the book name starts with "v,w,x,y,z") {
+print "Search in shelf 4."
+}
+
+end if
+
+end 

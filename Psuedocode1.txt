@@ -1,0 +1,60 @@
+Classification Of Books
+
+Start
+totalSectionA = 0
+totalSectionB = 0
+totalSectionC = 0
+totalSectionD = 0
+totalSectionE = 0
+totalSectionF = 0
+
+get book from user
+read genre
+
+if (the genre is litrerary novel) {
+print "The book belongs to Section A."
+}
+
+else if (the genre is fictional novel) {
+print "The book belongs to Section B."
+}
+
+else if (the genre is poetry) {
+print "The book belongs to Section C."
+}
+
+else if (the genre is article) {
+print "The book belongs to Section D."
+}
+
+else if (the genre is encyclopedia) {
+print "The book belongs to Section E."
+}
+
+else if (the genre is children's book) {
+print "The book belongs to Section F."
+}
+
+end if
+
+if (the book name starts with "a,b,c,d,e,f,g") {
+print "The book belongs to shelf 1."
+}
+
+else if (the book name starts with "h,i,j,k,l,m,n") {
+print "The book belongs to shelf 2."
+}
+
+else if (the book name starts with "o,p,q,r,s,t,u) {
+print "The book belongs to shelf 3."
+}
+
+else if (the book name starts with "v,w,x,y,z") {
+print "The book belongs to shelf 4."
+}
+
+end if
+
+end 
+
+
